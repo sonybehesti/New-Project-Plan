@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+h1{
+	margin: 25px;
+	padding: 25px;
+	font: bold;
+	font-family: 'Righteous', cursive;
+	border: solid;
+	color: white;
+	border-radius: 5px 40px 5px 40px;
+	text-align: center;
+	background-color: #660022;
+
+}
+
+body{
+border: solid;
+}
+
+
+.homework{
+	height: 200vh;
+	animation-name: jubi;
+	position: relative;
+	animation-duration: 7s;
+	animation-direction: alternate;
+	animation-delay: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	background-size: cover;
+	background-color: silver;
+	background-position: center;
+	background-image: 
+	url('img/time-5389154__340.webp')
+
+ 
+
+
+}
+
+ @keyframes jubi{
+ 	from {left: 0px;}
+ 	to {left: 200px;}
+ 	
+ } 
+@keyframes jubi{
+	0%{left:0;background-color: red;}
+	20%{left:200px;background-color: green;}
+	40%{left:200px;background-color: silver}
+	60%{left:0;background-color: blue;}
+	80%{left:0;background-color: pink;}
+	100%{left:0;background-color: black;}
+}
+
+
+audio{
+	width: 400px;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	background: gray;
+}
+
+video{
+	width: 600px;
+	margin: 20px;
+	padding: 20px;
+	background-color: red;}
+
+iframe{
+	margin: 20px;
+	padding: 20px;
+	background-color: red;
+}
+
+.dd{
+	height: 200vh;
+	position: relative;
+	background-color: lightblue;
+	animation: bb;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+
+
+}
+
+@keyframes bb{
+	from{top:0px;}
+	to{top:200px;}
+}
+
+@keyframes bb{
+   0%{top:0;background-color: red;}
+	20%{top:200px;background-color: green;}
+	40%{top:200px;background-color: silver}
+	60%{top:0;background-color: blue;}
+	80%{top:0;background-color: pink;}
+	100%{top:0;background-color: black;}
+}
+
+
+
+
+
+
+
+
